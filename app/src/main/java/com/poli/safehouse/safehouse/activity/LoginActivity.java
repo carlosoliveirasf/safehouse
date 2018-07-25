@@ -43,7 +43,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     if(response.isSuccessful()){
                         Log.i("onResponse", "Success");
                     }else{
-                        Log.i("onResponse", "Failed");
+                        Log.i("onResponse",response.message());
                     }
                 }
 
